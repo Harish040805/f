@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>Personal Website</title>
+  <style>
+    .box {
+      width: 300px;
+      height: 260px;
+      border-radius: 1rem;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      margin: 20px;
+      display: inline-block;
+      transition: all 0.3s ease;
+    }
+    .box1 {
+      background-image: url('link');
+      background-size: cover;
+    }
+    .box1:hover {
+      transform: scale(1.1);
+    }
+    .box2 {
+      background-image: url('link');
+      background-size: cover;
+      opacity: 0.5;
+    }
+    .box2:hover {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="box box1">HI 1</div>
+  <div class="box box2">HI 2</div>
+</body>
+</html>
